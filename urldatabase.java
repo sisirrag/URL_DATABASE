@@ -10,7 +10,7 @@ class urldatabase
         int count=0;        
 
         Class.forName("oracle.jdbc.driver.OracleDriver");
-        Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","system","mathew");
+        Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","system","sisir");
         Statement st=con.createStatement();
 
         Scanner sc=new Scanner(System.in);
